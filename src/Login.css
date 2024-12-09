@@ -1,0 +1,39 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+   
+  }
+  
+  .loginCard {
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgb(100 100 100 / 24%);
+    box-shadow: 0 4px 8px rgb(0 0 0 / 96%);
+    backdrop-filter: blur(1px); 
+  }
+  
+  .text-center {
+    color: #f8f9fa;
+  }
+  
+  .link {
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  
+.invalid-feedback{
+  
+    color: red; 
+    font-size: 0.9rem; 
+    margin-top: 5px; 
+    display: block !important; 
+
+}

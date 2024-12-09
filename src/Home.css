@@ -1,0 +1,115 @@
+
+.postscontainer{
+    display: flex;
+    margin: 5%;
+    max-width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+
+.cardStyle{
+    border: 1px solid rgb(122 26 26 / 62%);
+    width: 32%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    background: hwb(18.95deg 55.47% 16.54% / 33%);
+    box-shadow: 0 4px 8px rgb(0 0 0 / 96%);
+    backdrop-filter: blur(5px);
+    font-family: sans-serif;
+    text-align: -webkit-center;
+    color: snow;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .wrapper1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+  }
+  .search-input {
+    width: 300px;
+    height: 40px;
+    background: rgba(223, 195, 195, 0.15);
+    border: 2px solid rgb(63, 24, 24);
+    border-radius: 15px;
+    color: white; 
+    padding: 5px;
+    outline: none; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); 
+    transition: all 0.3s ease; 
+  }
+  
+  .search-input::placeholder {
+    color: white; 
+    opacity: 0.8; 
+  }
+  
+  .search-input:hover {
+    border-color: rgba(223, 195, 195, 0.9); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); 
+  }
+  
+  .search-input:focus {
+    border-color: rgba(223, 195, 195, 0.9); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.8); 
+  }
+  .btnLogout {
+    background: rgb(248, 244, 239);
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(63, 24, 24);
+    border-radius: 15px;
+    padding: 5px;
+    
+  }
+  .btnLogout:hover {
+    border-color: rgba(223, 195, 195, 0.9); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); 
+  }
+  .btnLogout:focus {
+    border-color: rgba(223, 195, 195, 0.9); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.8); 
+  }
+  .pagination {
+    
+    justify-content: center;
+    list-style: none;
+   
+    padding: 10px;
+  }
+  
+  .page-item {
+    margin: 0 5px;
+    
+  }
+  
+  .page-link {
+    padding: 10px;
+    /* background-color: white; */
+    border: 1px solid #ddd;
+    cursor: pointer;
+    background: rgb(100 100 100 / 24%);
+    box-shadow: 0 4px 8px rgb(0 0 0 / 96%);
+    backdrop-filter: blur(1px);
+    border-radius: 5pc;
+    color: #7c2f12;
+  }
+  
+  .page-item.active .page-link {
+    background-color: lightgray;
+    font-weight: bold;
+  }
+  
+  .prev-item, .next-item {
+    margin: 0 10px;
+    color: rgb(205, 133, 45);
+  }
+  
