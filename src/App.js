@@ -29,9 +29,8 @@ function App() {
         <Route path="/post/:id" element={<PostDetails />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<SignUp />} />
-      </Routes>
-    </div>
-  );
+        </Routes>
+        </div>)
 }
 
 export default App;
